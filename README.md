@@ -49,6 +49,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py config/ct/ct_r18_tt.py
 ```
 
 ## Test
+Pre-trained checkpoints can be downloaded from [baidu cloud](https://pan.baidu.com/s/1wX_7oulRf-2_bsNDeon6Eg) (Password: 31mk). When testing, move the file to checkpoints/.
 ```
 python test.py ${CONFIG_FILE} ${CHECKPOINT_FILE}
 ```
@@ -66,7 +67,7 @@ cd eval/
 ## TODO
 
 - [x] Release code
-- [ ] Trained models
+- [x] Trained models
 - [ ] Recognition codes
 
 ## Citation
